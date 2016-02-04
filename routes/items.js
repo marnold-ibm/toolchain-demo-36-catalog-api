@@ -126,7 +126,7 @@ var fib = function(n) {
 
 exports.loadTest = function(req, res) {
     // *************** (1 of 3) comment the next line to get the full loadTest function ***********
-    res.json({"success": 0, "fail": 0, "time": 0}); /*
+   // res.json({"success": 0, "fail": 0, "time": 0}); /*
     var testCount = req.query.count;
     testCount = testCount ? parseInt(testCount) : 100;
 
@@ -165,6 +165,6 @@ exports.loadTest = function(req, res) {
         }
     });
 // *************** (2 of 3) comment the next line to get the full loadTest function ***********
-*/
+//*/
 // *************** (3 of 3) change USE_FASTCACHE up at the top to 'true' to enable enhanced lookup ***********
 };
