@@ -1,7 +1,7 @@
 require('./db');
 initDB();
 
-var USE_FASTCACHE = false;
+var USE_FASTCACHE = true;
 
 var request = require('request')
 
